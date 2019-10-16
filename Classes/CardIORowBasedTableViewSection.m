@@ -83,7 +83,7 @@
   } else if([row isKindOfClass:[UITableViewCell class]]) {
     return row;
   } else {
-    return nil;
+    return [[UITableViewCell alloc] init];
   }
 }
 
